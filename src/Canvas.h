@@ -1,4 +1,3 @@
-
 //
 // Canvas.h
 //
@@ -16,7 +15,7 @@
 #if HAVE_PANGO
 #include <pango/pangocairo.h>
 #else
-#include <cairo/cairo.h>
+#include <cairo.h>
 #endif
 
 using namespace v8;
